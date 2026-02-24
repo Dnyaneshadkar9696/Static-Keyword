@@ -1,6 +1,10 @@
 package staticKeyword;
 
 public class Block {
+
+	{
+		System.out.println("This is Non-Static Block");
+	}
 	
 	static {
 		
@@ -11,6 +15,8 @@ public class Block {
 		
 		
 		System.out.println("Hellow Static block..");
+		Block b = new Block();
 	}
 
 }
+
